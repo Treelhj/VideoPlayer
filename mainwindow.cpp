@@ -7,7 +7,7 @@ MainWindow::MainWindow(QWidget *parent)
 {
     ui->setupUi(this);
 
-    //播放按钮
+    //播放按钮22
 //    ui->PlayButton->setIcon(QIcon(":/images/play.png"));
 //    ui->PlayButton->setIconSize(QSize(30,30));
 }
