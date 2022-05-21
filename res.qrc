@@ -7,5 +7,6 @@
         <file>images/play.png</file>
         <file>images/stop.png</file>
         <file>images/volume.png</file>
+        <file>images/upload.png</file>
     </qresource>
 </RCC>

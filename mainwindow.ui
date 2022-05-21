@@ -38,7 +38,7 @@
        </item>
        <item>
         <widget class="QWidget" name="widget_5" native="true">
-         <layout class="QHBoxLayout" name="horizontalLayout_3" stretch="9,0,2">
+         <layout class="QHBoxLayout" name="horizontalLayout_3" stretch="9,0,0">
           <item>
            <widget class="QSlider" name="horizontalSlider_2">
             <property name="orientation">
@@ -52,7 +52,7 @@
              <string/>
             </property>
             <property name="icon">
-             <iconset>
+             <iconset resource="res.qrc">
               <normaloff>:/images/volume.png</normaloff>:/images/volume.png</iconset>
             </property>
            </widget>
@@ -77,23 +77,23 @@
         <widget class="QWidget" name="widget_4" native="true">
          <layout class="QHBoxLayout" name="horizontalLayout_4">
           <item>
-           <widget class="QPushButton" name="pushButton_2">
+           <widget class="QPushButton" name="playBtn">
             <property name="text">
              <string/>
             </property>
             <property name="icon">
-             <iconset>
+             <iconset resource="res.qrc">
               <normaloff>:/images/play.png</normaloff>:/images/play.png</iconset>
             </property>
            </widget>
           </item>
           <item>
-           <widget class="QPushButton" name="pushButton_3">
+           <widget class="QPushButton" name="stopBtn">
             <property name="text">
              <string/>
             </property>
             <property name="icon">
-             <iconset>
+             <iconset resource="res.qrc">
               <normaloff>:/images/stop.png</normaloff>:/images/stop.png</iconset>
             </property>
            </widget>
@@ -104,7 +104,7 @@
              <string/>
             </property>
             <property name="icon">
-             <iconset>
+             <iconset resource="res.qrc">
               <normaloff>:/images/before.png</normaloff>:/images/before.png</iconset>
             </property>
            </widget>
@@ -115,7 +115,7 @@
              <string/>
             </property>
             <property name="icon">
-             <iconset>
+             <iconset resource="res.qrc">
               <normaloff>:/images/next.png</normaloff>:/images/next.png</iconset>
             </property>
            </widget>
@@ -140,6 +140,17 @@
             </property>
            </spacer>
           </item>
+          <item>
+           <widget class="QPushButton" name="uploadBtn">
+            <property name="text">
+             <string/>
+            </property>
+            <property name="icon">
+             <iconset resource="res.qrc">
+              <normaloff>:/images/upload.png</normaloff>:/images/upload.png</iconset>
+            </property>
+           </widget>
+          </item>
          </layout>
         </widget>
        </item>
@@ -148,26 +159,9 @@
     </item>
     <item>
      <widget class="QWidget" name="widget_2" native="true">
-      <layout class="QVBoxLayout" name="verticalLayout_2" stretch="9,1">
+      <layout class="QVBoxLayout" name="verticalLayout_2" stretch="6,1">
        <item>
-        <widget class="QWidget" name="widget_6" native="true">
-         <layout class="QVBoxLayout" name="verticalLayout_4">
-          <item>
-           <widget class="QLabel" name="label_2">
-            <property name="text">
-             <string>霸王别姬</string>
-            </property>
-           </widget>
-          </item>
-          <item>
-           <widget class="QLabel" name="label_3">
-            <property name="text">
-             <string>肖申克的救赎</string>
-            </property>
-           </widget>
-          </item>
-         </layout>
-        </widget>
+        <widget class="QListWidget" name="listWidget"/>
        </item>
        <item>
         <widget class="QWidget" name="widget_7" native="true">
@@ -211,6 +205,8 @@
    </property>
   </widget>
  </widget>
- <resources/>
+ <resources>
+  <include location="res.qrc"/>
+ </resources>
  <connections/>
 </ui>
